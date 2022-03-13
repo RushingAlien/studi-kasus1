@@ -8,7 +8,6 @@ public class MainKaryawan {
         System.out.print("Masukkan jumlah karyawan   : ");
         int jumlahKaryawan = scan.nextInt(); scan.nextLine();
         System.out.println();
-
         for (int i = 0; i < jumlahKaryawan; i++) {
             System.out.print("Masukkan nama karyawan     : ");
             String nama = scan.nextLine();
@@ -25,5 +24,6 @@ public class MainKaryawan {
             karyawan.getInfo();
             karyawan.tingkahLaku();
         }
+        scan.close();
     }
 }

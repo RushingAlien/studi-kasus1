@@ -8,7 +8,6 @@ public class MainMobil {
         System.out.print("Masukkan jumlah data mobil: ");
         int jumlahMobil = scan.nextInt(); scan.nextLine();
         System.out.println();
-
         for (int i = 0; i < jumlahMobil; i++) {
             System.out.print("Masukkan nomor plat     : ");
             String noPlat = scan.nextLine();
@@ -24,5 +23,6 @@ public class MainMobil {
             mobil.tingkahLaku();
             System.out.println();
         }
+        scan.close();
     }
 }
